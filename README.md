@@ -23,3 +23,13 @@
 "docs:build": "vuepress build docs",
 
 ```
+
+
+```bash
+cd docs/.vuepress/dist
+tar -zcvf dist.tar.gz *
+mv -f dist.tar.gz /root/www/blog
+cd /root/www/blog
+tar -xzvf dist.tar.gz
+rm -rf dist.tar.gz
+```

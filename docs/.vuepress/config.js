@@ -1,6 +1,6 @@
 module.exports = {
     title: '博客',
-    base: '/',
+    base: '/blog/',
     description: 'forguo',
 	    markdown: {
         lineNumbers: true
