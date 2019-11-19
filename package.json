@@ -15,5 +15,8 @@
         "blog"
     ],
     "author": "forguo",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "vuepress": "^1.2.0"
+    }
 }
