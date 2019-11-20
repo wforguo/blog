@@ -6,7 +6,7 @@ actionText: 开始 →
 actionLink: /Note/
 features:
 - title: 笔记
-  details: 面试笔记。
+  details: 笔记。
 - title: 备忘
   details: 备忘录。
 - title: 工具
