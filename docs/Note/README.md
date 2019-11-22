@@ -4,4 +4,6 @@
 
 ## [Linux常用命令](./linux/linux-bash.md)
 
-## Jenkins测试
+## [Jenkins+GitHub](./linux/Jenkins+GitHub.md)
+
+## [Jenkins+GitLab](./linux/Jenkins+GitLab.md)
