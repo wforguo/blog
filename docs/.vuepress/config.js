@@ -6,7 +6,7 @@ module.exports = {
         lineNumbers: true
     },
     head: [
-        ['link', { rel: 'icon', href: `/imgs/icon.jpg` }],
+        ['link', { rel: 'icon', href: `/imgs/logo.png` }],
         ['link', { rel: 'manifest', href: `/manifest.json` }],
     ],
     themeConfig: {
