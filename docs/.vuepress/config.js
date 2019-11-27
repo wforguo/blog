@@ -10,12 +10,19 @@ module.exports = {
         ['link', { rel: 'manifest', href: `/manifest.json` }],
     ],
     themeConfig: {
+        lastUpdated: '更新日期',
         nav: [
             { text: '笔记', link: '/Note/' },
             { text: '工具', link: '/Tool/' },
-            { text: 'CSDN', link: 'https://blog.csdn.net/WEIGUO19951107' },
+            { text: '掘金', link: 'https://juejin.im/user/5bbae0f4e51d450e905a1991/posts' },
         ],
-      sidebar: {
-      }
+        sidebar: {
+            '/Note/':[
+                ''
+            ],
+            '/Tool/':[
+                ''
+            ]
+        }
     }
 }
