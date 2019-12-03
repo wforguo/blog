@@ -14,6 +14,8 @@
 
 - [ES6学习](./js/es6.md)
 
+- [vue项目,ie11 浏览器报 Promise 未定义的错误](./js/polyfill.md)
+
 ## 小程序
 
 - [wepy编译less添加css前缀（autoprefix）](./wxApp/autoprefix.md)
