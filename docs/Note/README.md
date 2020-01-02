@@ -26,17 +26,6 @@
 
 - [wepy开启代码压缩](./wxApp/wepy-minify.md)
 
-## Vue
-
-- [Vue响应式原来]
-
-- [数据双向绑定原理]
-
-- [Vuex使用及原理]
-
-- [Axios使用及原理]
-
-- [Vue-Router使用及原理]
 
 ## 自动化部署
 
@@ -46,3 +35,106 @@
 
 - [Jenkins+GitLab](./linux/Jenkins+GitLab.md)
 
+
+## jQuery源码 
+
+- 核心架构（优秀blog）
+
+- 事件委托
+
+- 插件机制
+
+- 兼容性（各个版本）
+
+- 与zepto的区别
+
+## Vue源码分析
+
+- [Vue响应式原来]
+
+- [数据双向绑定原理]
+
+- [Vuex使用及原理]
+
+- [Axios使用及原理]
+ 
+- [Vue-Router使用及原理]
+
+## Vue相关
+
+- 实战中遇到的问题以及解决方式
+
+（数组渲染所遇到的问题）
+
+（组件传值遇到的问题）
+
+（路由传值问题）
+
+（axios发起option请求的解决办法）
+
+- （路由自动加载）
+
+```javascript
+
+let r = require.context('./pages/', true, /.vue/);
+
+```
+
+- (打包优化)
+
+DLL 优化
+
+每次都需要去处理第三方库；
+
+1. webpack.dll.js
+
+```javascript
+const path = require(path);
+
+const webpack = require(webpack);
+
+module.exports = {
+    entry: {
+        vendor: ['vue/dist/vue.esm.js']
+    },
+    output: {
+        path: path.join(__dirname, "../static/js"),
+        filename: '[name].dll.js',
+        libary: '[name]_libary'
+    },
+    plugins: [
+        
+    ]
+};
+```
+
+2. 先打包第三方库
+
+（Vue插件开发）
+
+执行install方法
+
+```javascript
+var a = {
+    install: function() {
+        vue.mixin({
+
+            // 生命周期的注入（每一个组件） 
+            
+            // 在这里可以注入全局的data，方法，以及修改生命周期
+    
+        })
+    }
+}
+```
+
+
+## 项目工程化
+
+- gulp的使用
+
+- npm基本命令
+
+- webpack基本知识
+
+##  常见的bug以及解决方式

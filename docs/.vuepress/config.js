@@ -14,6 +14,7 @@ module.exports = {
         nav: [
             { text: '笔记', link: '/Note/' },
             { text: '工具', link: '/Tool/' },
+            { text: 'Resume', link: '/Resume/' },
             { text: '掘金', link: 'https://juejin.im/user/5bbae0f4e51d450e905a1991/posts' },
         ],
         sidebar: {
@@ -21,6 +22,9 @@ module.exports = {
                 ''
             ],
             '/Tool/':[
+                ''
+            ],
+            '/Resume/':[
                 ''
             ]
         }
