@@ -2,6 +2,10 @@
 
 > 笔记
 
+## MarkDown
+
+[MarkDown语法](./MarkdownLang.md)
+
 ## JavaScript
 
 - [闭包]()
@@ -14,8 +18,6 @@
 
 - [ES6学习](./js/es6.md)
 
-- [vue项目,ie11 浏览器报 Promise 未定义的错误](./js/polyfill.md)
-
 ## 小程序
 
 - [wepy编译less添加css前缀（autoprefix）](./wxApp/autoprefix.md)
@@ -26,19 +28,15 @@
 
 - [wepy开启代码压缩](./wxApp/wepy-minify.md)
 
+## Git
 
-## 自动化部署
+[Git基本操作](Git/Git.md)
 
-- [Linux常用命令](./linux/linux-bash.md)
+## jQuery
 
-- [Jenkins+GitHub](./linux/Jenkins+GitHub.md)
+### jQuery源码
 
-- [Jenkins+GitLab](./linux/Jenkins+GitLab.md)
-
-
-## jQuery源码 
-
-- 核心架构（优秀blog）
+- [核心架构](jQuery/jQuery.core..md)
 
 - 事件委托
 
@@ -46,9 +44,11 @@
 
 - 兼容性（各个版本）
 
-- 与zepto的区别
+- 与Zepto的区别
 
-## Vue源码分析
+## Vue
+
+### 源码分析
 
 - [Vue响应式原来]
 
@@ -60,27 +60,27 @@
  
 - [Vue-Router使用及原理]
 
-## Vue相关
+### 相关
 
-- 实战中遇到的问题以及解决方式
+#### 实战中遇到的问题以及解决方式
 
-（数组渲染所遇到的问题）
+(数组渲染所遇到的问题)
 
-（组件传值遇到的问题）
+(组件传值遇到的问题)
 
-（路由传值问题）
+(路由传值问题)
 
-（axios发起option请求的解决办法）
+(axios发起option请求的解决办法)
 
-- （路由自动加载）
+ [vue项目,ie11 浏览器报 Promise 未定义的错误](./js/polyfill.md)
+
+#### 路由自动加载
 
 ```javascript
-
 let r = require.context('./pages/', true, /.vue/);
-
 ```
 
-- (打包优化)
+#### 打包优化
 
 DLL 优化
 
@@ -95,7 +95,7 @@ const webpack = require(webpack);
 
 module.exports = {
     entry: {
-        vendor: ['vue/dist/vue.esm.js']
+        vendor: ['Vue/dist/Vue.esm.js']
     },
     output: {
         path: path.join(__dirname, "../static/js"),
@@ -110,7 +110,7 @@ module.exports = {
 
 2. 先打包第三方库
 
-（Vue插件开发）
+#### Vue插件开发
 
 执行install方法
 
@@ -128,7 +128,6 @@ var a = {
 }
 ```
 
-
 ## 项目工程化
 
 - gulp的使用
@@ -138,3 +137,28 @@ var a = {
 - webpack基本知识
 
 ##  常见的bug以及解决方式
+
+### css
+
+### js
+
+### 兼容性
+
+## 建站
+
+### 自动化部署
+
+- [Linux常用命令](Serve/linux-bash.md)
+
+- [Jenkins+GitHub](Serve/Jenkins+GitHub.md)
+
+- [Jenkins+GitLab](Serve/Jenkins+GitLab.md)
+
+### Nginx配置
+
+[Nginx配置](./Serve/Nginx.md)
+
+## 代码片段
+
+[代码片段](./Codes/codes.md)
+
