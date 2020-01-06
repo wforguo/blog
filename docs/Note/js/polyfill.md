@@ -1,4 +1,4 @@
-### vue项目,ie11 浏览器报 Promise 未定义的错误
+# vue项目,ie11 浏览器报 Promise 未定义的错误
 
 > 报错：
 
