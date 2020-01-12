@@ -2,6 +2,10 @@
 
 > 笔记
 
+## 前端体系
+
+[前端体系](https://cdn.forguo.com/assets/imgs/f2e-map.png)
+
 ## MarkDown
 
 [MarkDown语法](./MarkdownLang.md)
@@ -50,7 +54,7 @@
 
 ### 源码分析
 
-- [Vue响应式原来]
+- [Vue响应式原理](./Vue/theory.md)
 
 - [数据双向绑定原理]
 
@@ -62,7 +66,9 @@
 
 ### 相关
 
-#### 实战中遇到的问题以及解决方式
+[路由的自动加载](./Vue/auto-route.md)
+
+### 实战中遇到的问题以及解决方式
 
 (数组渲染所遇到的问题)
 
@@ -74,11 +80,6 @@
 
  [vue项目,ie11 浏览器报 Promise 未定义的错误](./js/polyfill.md)
 
-#### 路由自动加载
-
-```javascript
-let r = require.context('./pages/', true, /.vue/);
-```
 
 #### 打包优化
 
@@ -103,7 +104,6 @@ module.exports = {
         libary: '[name]_libary'
     },
     plugins: [
-        
     ]
 };
 ```
@@ -144,7 +144,7 @@ var a = {
 
 ### 兼容性
 
-## 建站
+## 服务端
 
 ### 自动化部署
 
@@ -158,7 +158,10 @@ var a = {
 
 [Nginx配置](./Serve/Nginx.md)
 
+### koa项目发布上线
+
+[koa项目上线](./Serve/koa.md)
+
 ## 代码片段
 
 [代码片段](./Codes/codes.md)
-

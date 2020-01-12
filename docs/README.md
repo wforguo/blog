@@ -1,6 +1,6 @@
 ---
 home: true
-sideBar: false
+sideBar: true
 heroImage: /imgs/logo.png
 actionText: 开始 →
 actionLink: /Note/
@@ -11,5 +11,5 @@ features:
   details: 好记性不如烂键盘。
 - title: 工具
   details: 工欲善其事，必先利其器。
-footer: 陇ICP备17000679号-1 Copyright @ 2016-2019
+footer: 陇ICP备17000679号-1 Copyright @ 2016-2020
 ---
