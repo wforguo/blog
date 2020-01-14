@@ -73,3 +73,4 @@ pm2列表查看，`pm2 list`
 pm2杀死进程，`pm2 kill`
 
 ![cmd-markdown-logo](https://cdn.forguo.com/assets/imgs/pm2-kill.png)
+

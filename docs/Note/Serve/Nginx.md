@@ -2,6 +2,54 @@
 
 > Nginx
 
+## 基本命令
+
+- 安装
+
+```shell script
+yum install nginx
+```
+
+- 查看版本号
+
+```shell script
+nginx -v
+```
+
+- 重启nginx
+
+```shell script
+nginx -s reload
+```
+
+- 验证配置是否正确
+
+```shell script
+ ./nginx -t
+```
+
+- Nginx正常启动：
+```shell script
+nginx
+```
+
+- 快速停止或关闭Nginx
+```shell script
+./nginx -s stop
+```
+
+- 正常停止或关闭Nginx
+```shell script
+./nginx -s quit
+```
+
+- 配置文件修改重装载命令
+```shell script
+./nginx -s reload
+```
+
+## 基本配置
+
 ```bash
 
 user root;

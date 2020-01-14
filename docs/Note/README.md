@@ -22,6 +22,8 @@
 
 - [ES6学习](./js/es6.md)
 
+- [深拷贝的实现](./js/deep-copy.md)
+
 ## 小程序
 
 - [wepy编译less添加css前缀（autoprefix）](./wxApp/autoprefix.md)
