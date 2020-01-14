@@ -6,6 +6,45 @@
 
 [前端体系](https://cdn.forguo.com/assets/imgs/f2e-map.png)
 
+## interview
+
+- 1、本科及以上学历，2年以上工作经验，参与过大型互联网产品的设计研发工作；
+- 2、精通JavaScript，CSS，HTML，DOM、协议、安全、性能等前端技术；
+- 3、熟悉W3C，ECMAScript，CommonJS，ES6等相关技术标准 ；
+- 4、了解AngularJS，React，Vue等新式前端框架和相关技术栈；
+- 5、了解MVC，MVVM，flux，redux，前端构建等相关工程知识；
+- 6、熟练掌握Web以及Mobile Web开发相关技术；
+- 7、能独立完成复杂前端系统或大型框架；
+- 8、至少了解Node、Python、PHP、Java等一门后端开发语言；
+- 9、良好的设计和编码风格，关注国内外各大开源社区和技术论坛；
+- 10、优秀的团队合作能力，沟通顺畅，追求卓越，乐于创新，敢于尝试。
+
+[Mvc、MVVM](https://juejin.im/post/5cd8a7c1f265da037a3d0992)
+
+数据双向绑定
+
+Vue数据异步更新的原理；
+
+防抖和节流
+
+高阶函数
+
+修饰符
+
+异步过程
+
+cookie
+
+setTimeout、setInterval与requestAnimationFrame
+
+给出代码，说出运算结果（this、event loop）
+
+写代码：回文数，数组去重，自定义log，判断数据类型
+
+有哪些缓存策略(LRU）
+
+https://www.nowcoder.com/discuss/171705
+
 ## MarkDown
 
 [MarkDown语法](./MarkdownLang.md)
