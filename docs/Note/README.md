@@ -136,9 +136,9 @@ module.exports = {
 
 2. 先打包第三方库
 
-#### Vue插件开发
+#### Vue组件开发
 
-执行install方法
+- install方法
 
 ```javascript
 var a = {
@@ -153,6 +153,11 @@ var a = {
     }
 }
 ```
+
+`Vue.use`
+
+- 一个vue组件
+
 
 ## 项目工程化
 
@@ -187,6 +192,10 @@ var a = {
 ### koa项目发布上线
 
 [koa项目上线](./Serve/koa.md)
+
+### koa文件上传
+
+[koa文件上传](./Serve/file-upload.md)
 
 ## 代码片段
 
