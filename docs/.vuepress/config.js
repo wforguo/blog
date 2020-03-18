@@ -11,6 +11,7 @@ module.exports = {
     ],
     themeConfig: {
         lastUpdated: '更新日期',
+        sidebar: 'auto',
         nav: [
             { text: '笔记', link: '/Note/' },
             { text: '工具', link: '/Tool/' },
@@ -19,7 +20,17 @@ module.exports = {
         ],
         sidebar: {
             '/Note/':[
-                ''
+                'Js/',
+                'Css3/',
+                'jQuery/',
+                'Vue/',
+                'Performance/',
+                'Project/',
+                'Git/',
+                'Serve/',
+                'Bugs/',
+                'Safe/',
+                'Codes/',
             ],
             '/Tool/':[
                 ''
