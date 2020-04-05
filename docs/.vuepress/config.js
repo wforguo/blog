@@ -11,12 +11,19 @@ module.exports = {
     ],
     themeConfig: {
         lastUpdated: '更新日期',
-        sidebar: 'auto',
         nav: [
             { text: '笔记', link: '/Note/' },
             { text: '工具', link: '/Tool/' },
             { text: 'Resume', link: '/Resume/' },
-            { text: '掘金', link: 'https://juejin.im/user/5bbae0f4e51d450e905a1991/posts' },
+            {
+                text: 'Blog',
+                ariaLabel: 'Blog Menu',
+                items: [
+                    { text: '掘金', link: 'https://juejin.im/user/5bbae0f4e51d450e905a1991/posts' },
+                    { text: 'CSDN', link: 'https://blog.csdn.net/WEIGUO19951107' },
+                    { text: '主页', link: 'https://forguo.com' }
+                ]
+            }
         ],
         sidebar: {
             '/Note/':[
@@ -24,9 +31,10 @@ module.exports = {
                 'Css3/',
                 'jQuery/',
                 'Vue/',
-                'Performance/',
-                'Project/',
+                'React/',
                 'Git/',
+                'Project/',
+                'Performance/',
                 'Serve/',
                 'Bugs/',
                 'Safe/',
