@@ -1,28 +1,30 @@
 # JS基础
 
-- 原型和原型链
+## 变量的类型和计算
 
-- 作用域和闭包
-
-- 异步和单线程
+- [变量的类型和计算](prototype.md)
 
 ---
 
+**JS三座大山**
+
+## 原型和原型链
+
+- [原型和原型链](prototype.md)
+
 ## 作用域和闭包
 
-[作用域和闭包](closure.md)
+- [作用域和自由变量](scope.md)
 
-## 函数防抖与节流
+- [闭包](closure.md)
 
-[函数防抖与节流](debounceAndThrottle.md)
+- [this](this.md)
 
-## 图片懒加载
+## 异步和单线程
 
-[图片懒加载](lazyLoad.md)
+- [单线程和异步](async.md)
 
-## this
-
-[this](this.md)
+## 从JS基础知道到 JS Web Api
 
 ## ES6学习
 
@@ -32,6 +34,15 @@
 
 [深拷贝的实现](deep-copy.md)
 
-有哪些缓存策略(LRU）
+
+## 函数防抖与节流
+
+[函数防抖与节流](debounceAndThrottle.md)
+
+## 图片懒加载
+
+[图片懒加载](lazyLoad.md)
+
+## 有哪些缓存策略(LRU）
 
 setTimeout、setInterval与requestAnimationFrame
