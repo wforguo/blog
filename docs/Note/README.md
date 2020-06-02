@@ -8,12 +8,6 @@
 
 [JS基础](Js/README.md)
 
-- 原型和原型链
-
-- 作用域和闭包
-
-- 异步和单线程
-
 ## Css
 
 [Css](Css3/README.md)
