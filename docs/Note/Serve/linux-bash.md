@@ -4,6 +4,14 @@
 
 > Linux常用命令
 
+## Linux 目录结构
+
+![cmd-markdown-logo](./linux-file.png)
+
+## Linux目录与文件管理
+
+
+
 ## 刷新本地包索引
 
     `sudo apt update`
