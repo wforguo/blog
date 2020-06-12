@@ -1,7 +1,7 @@
 module.exports = {
     title: '博客',
     port: 80,
-    base: '/',
+    base: '/blog/',
     description: '一个前端工程师的自我修养',
 	    markdown: {
         lineNumbers: true
