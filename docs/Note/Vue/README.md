@@ -10,7 +10,7 @@
 
 ### 响应式原理
 
-- [Vue响应式原理](theory.md)
+- [Vue响应式原理](./theory.md)
 
 ### [Vuex使用及原理]
 
@@ -38,7 +38,7 @@ HTML5 history
 
 ### 传值
 
-### [路由的自动加载](auto-route.md)
+### [路由的自动加载](./auto-route.md)
 
 ### 组件开发
 

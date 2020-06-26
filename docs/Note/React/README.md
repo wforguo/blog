@@ -1,4 +1,4 @@
-# React Study
+# React
 
 - 声名式开发
 
@@ -125,11 +125,19 @@ this.setState(() => ({
 
 `data = { data }`
 
-`props.props.data`
+`this.props.data`
 
 - 子 =》父
 
-`this.props.handleClick`
+```
+    // 父组件中
+    <Child onClick={this.handleClick} age={this.state.age} name={this.state.name}></Child>
+```
+
+```
+    // 子组件触发
+    <button onClick={this.props.onClick}>点击</button>
+```
 
 ### props校验
 

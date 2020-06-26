@@ -14,13 +14,7 @@
 
 ## 小程序
 
-- [wepy编译less添加css前缀（autoprefix）](WxApp/autoprefix.md)
-
-- [小程序web-view覆盖原生组件](WxApp/webview.md)
-
-- [小程序骨架屏的使用](WxApp/wxapp-skeleton.md)
-
-- [wepy开启代码压缩](WxApp/wepy-minify.md)
+- [小程序](./WxApp/README.md)
 
 ## Git
 
@@ -61,3 +55,14 @@
 ## MarkDown
 
 [MarkDown语法](./MarkdownLang.md)
+
+
+
+<br>
+<br>
+
+[csdn](https://blog.csdn.net/WEIGUO19951107)
+
+[github](https://github.com/wforguo)
+
+[个人站点](https://www.forguo.com/blog/)

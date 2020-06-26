@@ -1,6 +1,6 @@
 module.exports = {
     title: '博客',
-    port: 80,
+    port: 8080,
     base: '/blog/',
     description: '一个前端工程师的自我修养',
 	    markdown: {
@@ -33,6 +33,7 @@ module.exports = {
                 'jQuery/',
                 'Vue/',
                 'React/',
+                'WxApp/',
                 'Git/',
                 'Project/',
                 'Performance/',
