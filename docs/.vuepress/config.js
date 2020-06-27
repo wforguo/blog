@@ -9,6 +9,17 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: `/imgs/logo.png` }],
         ['link', { rel: 'manifest', href: `/manifest.json` }],
+        ['script', {}, `
+              var _mtac = {};
+              (function() {
+                var mta = document.createElement("script");
+                mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+                mta.setAttribute("name", "MTAH5");
+                mta.setAttribute("sid", "500723022");
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(mta, s);
+              })();
+        `]
     ],
     themeConfig: {
         lastUpdated: '更新日期',
@@ -49,5 +60,6 @@ module.exports = {
                 ''
             ]
         }
-    }
+    },
+    plugins: ['@vuepress/back-to-top'],
 }

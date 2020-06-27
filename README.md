@@ -21,3 +21,21 @@
 "docs:build": "vuepress build docs",
 
 ```
+
+## 统计代码
+
+[Mta](https://mta.qq.com/h5/manage/ctr_app_manage?app_id=500723022)
+
+```
+    <script>
+      var _mtac = {};
+      (function() {
+        var mta = document.createElement("script");
+        mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+        mta.setAttribute("name", "MTAH5");
+        mta.setAttribute("sid", "500723022");
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(mta, s);
+      })();
+    </script>
+```

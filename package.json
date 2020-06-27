@@ -17,6 +17,7 @@
     "author": "forguo",
     "license": "ISC",
     "devDependencies": {
+        "@vuepress/plugin-back-to-top": "^1.5.2",
         "vuepress": "^1.2.0"
     }
 }
