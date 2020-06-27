@@ -17,7 +17,7 @@ module.exports = {
                 mta.setAttribute("name", "MTAH5");
                 mta.setAttribute("sid", "500723022");
                 var s = document.getElementsByTagName("script")[0];
-                s.parentNode.insertBefore(mta, s);
+                s.parentNode.appendChild(mta, s);
               })();
         `]
     ],
