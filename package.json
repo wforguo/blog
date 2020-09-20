@@ -7,8 +7,9 @@
         "doc": "docs"
     },
     "scripts": {
-        "docs:dev": "vuepress dev docs",
-        "docs:build": "vuepress build docs",
+        "dev": "vuepress dev docs",
+        "start": "npm run dev",
+        "build": "vuepress build docs",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
@@ -18,6 +19,8 @@
     "license": "ISC",
     "devDependencies": {
         "@vuepress/plugin-back-to-top": "^1.5.2",
+        "node-sass": "^4.14.1",
+        "sass-loader": "^10.0.2",
         "vuepress": "^1.2.0"
     }
 }

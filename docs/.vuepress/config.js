@@ -1,7 +1,7 @@
 module.exports = {
     title: '博客',
     port: 8080,
-    base: '/blog/',
+    base: '/',
     description: '一个前端工程师的自我修养',
 	    markdown: {
         lineNumbers: true
@@ -23,19 +23,24 @@ module.exports = {
     ],
     themeConfig: {
         lastUpdated: '更新日期',
+        footer: { // 页脚信息
+            createYear: 2019, // 博客创建年份
+            copyrightInfo: 'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+        },
         nav: [
             { text: '笔记', link: '/Note/' },
             { text: '工具', link: '/Tool/' },
-            { text: 'Resume', link: '/Resume/' },
+            { text: '简历', link: '/Resume/' },
             {
                 text: 'Blog',
                 ariaLabel: 'Blog Menu',
                 items: [
                     { text: '掘金', link: 'https://juejin.im/user/5bbae0f4e51d450e905a1991/posts' },
                     { text: 'CSDN', link: 'https://blog.csdn.net/WEIGUO19951107' },
-                    { text: '主页', link: 'https://forguo.com' }
+                    { text: '主页', link: 'https://www.forguo.cn' }
                 ]
-            }
+            },
+            { text: 'GitHub', link: 'https://github.com/wforguo' },
         ],
         sidebar: {
             '/Note/':[
@@ -62,4 +67,4 @@ module.exports = {
         }
     },
     plugins: ['@vuepress/back-to-top'],
-}
+};
