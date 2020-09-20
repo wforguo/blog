@@ -5,11 +5,11 @@ heroImage: /imgs/logo.png
 actionText: 开始 →
 actionLink: /Note/
 features:
-- title: 📚笔记
+- title: 📒笔记
   details: 学而不思则罔，思而不学则殆。
-- title: 🎨备忘
+- title: 📚备忘
   details: 好记性不如烂键盘。
-- title: 📚工具
+- title: 🧰工具
   details: 工欲善其事，必先利其器。
 ---
 
@@ -30,11 +30,13 @@ features:
 }
 .iconfont {
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 1.6rem;
+    height: 1.6rem;
     font-size: 1.3rem;
     position: relative;
     margin: 0 5px; 
+    opacity: 0.8;
+    transition: ease all 300ms;
 }
 .iconfont:before {
     content: '';
@@ -44,10 +46,13 @@ features:
     width: 100%;
     height: 100%;
 }
-
+.iconfont:hover {
+    opacity: 1;
+    text-decoration: underline;
+    transition: ease all 300ms;
+}
 .icon-youjian:before {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAAASAAAAEgARslrPgAAA9RJREFUWMPtl01IG1sYht9zjiS4iC4kFlurVENqqS4rxZiipCK2WrEYRLBQJYiKuoibGiGCBWN1Z3XVhQSyG1MjtOLGH1TUqlEsItYqgnURGqu1UMzPzJwu0lyhoeTe6lUoPqthDme+9/nmzJkZ4JJLTgWJMkyM5cZyY/n165JVskrWmJjzCsY6WAfrEEVhUBgUBj99Cp3lPKpAqaPUUerIyqLH9Jgej45iBCMYuXr1vIL/Cu/n/bzf42HDbJgNP3jgrHfWO+tXVsLjNHwQ6rRCoXApXArXhw+km3STbrsdZShDWaT5eUHSSBpJczgSlhOWE5bX1sI5IwQCnoAn4NFoxB1xR9x588av9Wv92p4eskk2yWZVFe/knbzT5/vfE+ugg87vD9V7+tSX7Ev2JT9/7hW8glcYGgqKQTEoZmVFCKAOdahjDClIQUpBgaJL0aXoWljgQ3yID62ssEk2ySZzcqCHHvrwmjxDalCDmv19jGIUo4WFNEiDNDg9rZxWTiunZ2eRj3zkP3yIQhSikLFIgV+xwgqrRoMiFKHo3TspT8qT8q5dk7KlbCn77l0sYAELi4unzR3q9Pv3crFcLBffuUMySSbJFEXextt429wcaSANpOH27d/Np1ErbGMb2yoVaSJNpMnlYkEWZMEnT+L24vbi9u7dQyUqUelw/OfkE5jAxNu3/hJ/ib9Er6f7dJ/u37/P5/k8nx8fRwxiEJOYGO0y0QXCqKCCijH0ohe9XV1HB0cHRwcvX/osPovPYjKhGc1ofvaM27md22U5Yv7PzYAP8AE+8OKF2qg2qo1lZcol5ZJyyWJBLWpR++oVkpCEpJOHNBp/vK8TEzERk8mkXFeuK9dv3YIFFlgeP4YZZpi3tuCAAw67nVNOOWWMjtExOlZbK61Ja9Kay+VN9aZ6U1+/JtWkmlQXF/9pjlO/mEgFqSAVOh1mMIOZuTlmYAZmePQIU5jClF4f6ihjkkEySIZv39ghO2SHi4twww33zZunrf/vl1A0cpGL3LQ02SybZfPsrNwn98l9N27IOlkn665cIR7iIZ75efSgBz2nDx7m7D8NbLDBFhcHLbTQOp2htX3mVf7h7O7ABfH3CFAbtVGbKF50oGgwMDAEgxEC6hx1jjpnawuxiEXsly8XHTSCRCQi8etXOk7H6fjGxonQT9zL7mX3sixnxGfEZ8S73SRAAiRQUBASUqkuLLgIEeLnz2hEIxqrqpwtzhZny4nAb39o2nk7b+eUrm6sbqxuaDRoRStaz0+E7bJdtvv9O02n6TT940dBEARBkKQLa+Qlfys/AD2Mk+4yzAuqAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIwLTA5LTIwVDE2OjQzOjIzKzA4OjAw1p6ozQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMC0wOS0yMFQxNjo0MzoyMyswODowMKfDEHEAAABLdEVYdHN2ZzpiYXNlLXVyaQBmaWxlOi8vL2hvbWUvYWRtaW4vaWNvbi1mb250L3RtcC9pY29uXzM3dmtmbTFieDQ5L3lvdXhpYW5nLnN2Z+9tMAgAAAAASUVORK5CYII=") no-repeat 50% 50%;
-    background-size: 100% 100%;
 }
 
 .icon-github:before {
@@ -67,14 +72,27 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    flex-wrap: wrap;
+    line-height: 1.5rem; 
 }
 footer span {
     color:#666;
+    transition: ease all 300ms;
 }
 footer a {
     margin: 0 8px;
     color:#666;
+    transition: ease all 300ms;
+}
+footer a:hover span {
+    color: #3eaf7c;
+    text-decoration: underline;
+    transition: ease all 300ms;
+}
+footer a:hover {
+    color: #3eaf7c;
+    text-decoration: underline;
+    transition: ease all 300ms;
 }
 footer .police {
     display: flex;
