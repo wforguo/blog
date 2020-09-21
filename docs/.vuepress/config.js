@@ -10,7 +10,8 @@ module.exports = {
         ['meta', { name: 'keywords', content: `web前端个人简历,forguo,wforguo,web前端,个人简历,前端工程师,F2E,前端开发,魏国,一个前端工程师的自我修养` }],
         ['meta', { name: 'description', content: `前端个人简历|F2E|web前端个人简历|一个前端工程师的自我修养|魏国|forguo|wforguo` }],
         ['meta', { name: 'author', content: `魏国,forguo,wforguo,卫国没有周` }],
-        ['meta', { name: 'baidu-site-verification', content: `0lwXXEyOWc` }],
+        ['meta', { name: 'baidu-site-verification', content: `code-bakUos2v8l` }],
+        ['meta', { name: 'google-site-verification', content: `9aVJNYlDCl0rCI1akpdSqg9Xwr47KJrVWSXktSsfwKE` }],
         ['link', { rel: 'icon', href: `/imgs/logo.png` }],
         ['link', { rel: 'manifest', href: `/manifest.json` }],
         ['script', {}, `
