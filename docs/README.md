@@ -90,7 +90,7 @@ footer .police {
     display: flex;
     align-items: center;
 }
-.description {
+.description-a {
     width: 0;
     height: 0;
     opacity: 0;
@@ -98,7 +98,7 @@ footer .police {
 }
 </style>
 
-<article class="description">魏国的个人简历,forguo的个人简历,forguo,一个前端工程师的自我修养，web前端个人简历</article>
+<article class="description-a">魏国的个人简历,forguo的个人简历,forguo,一个前端工程师的自我修养，web前端个人简历</article>
 
 <div class="icons">
     <a href="mailto:wforguo@qq.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a>
