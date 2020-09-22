@@ -13,14 +13,6 @@ features:
   details: 工欲善其事，必先利其器。
 ---
 
-<div class="icons">
-    <a href="mailto:wforguo@qq.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a>
-    <a href="https://github.com/wforguo" title="GitHub" target="_blank" class="iconfont icon-github"></a>
-    <a href="https://www.forguo.cn" title="听音乐" target="_blank" class="iconfont icon-page"></a>
-</div>
-
-</br>
-
 <style>
 .icons {
     width: 100%;
@@ -98,7 +90,24 @@ footer .police {
     display: flex;
     align-items: center;
 }
+.description {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    display: inline;
+}
 </style>
+
+<article class="description">魏国的个人简历,forguo的个人简历,forguo,一个前端工程师的自我修养，web前端个人简历</article>
+
+<div class="icons">
+    <a href="mailto:wforguo@qq.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a>
+    <a href="https://github.com/wforguo" title="GitHub" target="_blank" class="iconfont icon-github"></a>
+    <a href="https://www.forguo.cn" title="听音乐" target="_blank" class="iconfont icon-page"></a>
+</div>
+
+</br>
+
 <footer>
     <a href="http://beian.miit.gov.cn" target="_blank">陇ICP备17000679号-1</a><a 
     target="_blank" class="police" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=62040302000038">
