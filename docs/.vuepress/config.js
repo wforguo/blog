@@ -1,5 +1,5 @@
 module.exports = {
-    title: '博客',
+    title: 'forguo',
     port: 9090,
     base: '/',
     description: '一个前端工程师的自我修养',
