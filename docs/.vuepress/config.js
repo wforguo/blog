@@ -29,10 +29,6 @@ module.exports = {
     ],
     themeConfig: {
         lastUpdated: '更新日期',
-        footer: { // 页脚信息
-            createYear: 2019, // 博客创建年份
-            copyrightInfo: 'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
-        },
         nav: [
             { text: '笔记', link: '/Note/' },
             { text: '工具', link: '/Tool/' },
