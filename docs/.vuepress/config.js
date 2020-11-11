@@ -15,16 +15,13 @@ module.exports = {
         ['link', { rel: 'icon', href: `/imgs/logo.png` }],
         ['link', { rel: 'manifest', href: `/manifest.json` }],
         ['script', {}, `
-             var _mtac = {"performanceMonitor":1,"senseQuery":1};
-              (function() {
-                  var mta = document.createElement("script");
-                  mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
-                  mta.setAttribute("name", "MTAH5");
-                  mta.setAttribute("sid", "500488468");
-                  mta.setAttribute("cid", "500671027");
-                  var s = document.getElementsByTagName("script")[0];
-                  s.parentNode.insertBefore(mta, s);
-              })();
+           var _hmt = _hmt || [];
+           (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?2788f1f4f01e060d6d892f4bbd5b74d4";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+           })();
         `]
     ],
     themeConfig: {
