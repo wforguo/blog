@@ -15,13 +15,13 @@ module.exports = {
         ['link', { rel: 'icon', href: `/imgs/logo.png` }],
         ['link', { rel: 'manifest', href: `/manifest.json` }],
         ['script', {}, `
-           var _hmt = _hmt || [];
-           (function() {
+            var _hmt = _hmt || [];
+            (function() {
               var hm = document.createElement("script");
               hm.src = "https://hm.baidu.com/hm.js?2788f1f4f01e060d6d892f4bbd5b74d4";
               var s = document.getElementsByTagName("script")[0]; 
               s.parentNode.insertBefore(hm, s);
-           })();
+            })();
         `]
     ],
     themeConfig: {
