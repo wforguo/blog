@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'forguo',
+    title: '博客',
     port: 9090,
     base: '/',
     description: '一个前端工程师的自我修养',
@@ -31,7 +31,7 @@ module.exports = {
             { text: '工具', link: '/Tool/' },
             { text: '简历', link: '/Resume/' },
             {
-                text: 'Blog',
+                text: '主页',
                 ariaLabel: 'Blog Menu',
                 items: [
                     { text: '掘金', link: 'https://juejin.im/user/5bbae0f4e51d450e905a1991/posts' },

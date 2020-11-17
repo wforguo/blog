@@ -405,8 +405,6 @@ Type简单可以分为两种，一种叫做Scalar Type(标量类型)，另一种
 > 优点：内容块的宽高任意, 优雅的溢出.  可用于更复杂高级的布局技术中.    缺点：IE8/IE9不支持、需要浏览器厂商前缀、渲染上可能会有一些问题
 
 
--  可用 transform , 设置父元素相对定位(position:relative)
-
 ```
 .box {
   height: 100px;
@@ -428,6 +426,8 @@ Type简单可以分为两种，一种叫做Scalar Type(标量类型)，另一种
 #### 居中元素高度固定
 
 - 设置父元素相对定位(position:relative), 子元素如下css样式:
+
+-  可用 transform , 设置父元素相对定位(position:relative)
 
 ``` javascript
 
