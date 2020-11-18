@@ -2,8 +2,49 @@
 
 > 代码段
 
-
 https://mp.weixin.qq.com/s/ISpEN8BoJOrMirF9OFz87A
+
+
+## 获取当前日期的三个月前的日期
+
+[日期Api](https://www.runoob.com/jsref/jsref-setmonth.html)
+
+### 1、思路
+
+- 先获取当前时间戳
+- 修改月份
+- 返回修改后的时间戳
+
+### 2、使用到的方法
+
+setMonth() 方法用于设置月份。
+
+**注意：** 一月为 0， 十二月为 11
+
+这个方法可用于设置月份中的某一天。
+
+该值介于 0（一月） ~ 11（十二月） 之间：
+
+##### 参数值
+- -1 为去年的最后一个月
+- 12 为明年的第一个月
+- 13 为明年的第二个月
+
+### 3、编码
+
+```javascript
+    // 当前日期
+    let now = new Date();
+    // 获取当前日期的前三个月的月份
+    let pastMonth = now.getMonth() - 3;
+    // 修改月份，如果前三个月对应没有该日期，则向后延顺
+    now.setMonth(pastMonth);
+    return now;
+```
+
+> 假设：
+> 当前时间是`2020/03/31`，`setMonth(1)`，也就是修改为2月，那最终返回的是`2020/03/02`，
+因为2020年2月没有31号，从29号往后顺延两天，也就是`2020/03/02`
 
 ## 获取URL的查询参数
 
@@ -37,15 +78,15 @@ function length(str) {
 ## Wepy采坑
 
 使用微信小程序框架wepy.js是报错 `'wx' is not defined  no-undef`
-  
+
  在.eslintrc.js文件中加入以下内容
 
-``` 
+```
   globals: { wx: true },
-  
+
 ```
 
-## 页面强制以最新的IE浏览器模式渲染        
+## 页面强制以最新的IE浏览器模式渲染
 
 ```html
 
@@ -76,12 +117,10 @@ function length(str) {
     "Opera >= 12",
     "Safari >= 6"
   ]
-  
+
 ```
 
 ## camelize：横线转驼峰命名
-
-
 
 ```
 
@@ -154,7 +193,7 @@ function unique(arr){
  * @options {Num} height:图片高
  * @options {Num} quality:图片质量
  */
- 
+
 ```
 
 ```
@@ -226,11 +265,11 @@ export const fistImg = (options) => {
                 evt.preventDefault();
             }
         });
-		
+
 	// 有表单时，页面位移
 	$('body').height($(window).height());
-	
-	
+
+
 	// 移动端禁止滑动
 	document.addEventListener("touchmove", function (e) {
 		e.preventDefault()
@@ -245,18 +284,18 @@ export const fistImg = (options) => {
 		}
 		return min + Math.floor(Math.random() * (max - min + 1));
 	};
-	
-	
+
+
 	// 移动设备判断
-	
+
 	//移动端左右边距
 	if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))) {
 		document.getElementsByTagName("body")[0].style.minWidth = "1028px";
 	}
-	
-	
+
+
 	### 微信段
-	
+
 	// 微信下媒体播放
     if(WeixinJSBridge && /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
 		WeixinJSBridge.invoke('getNetworkType', {},
@@ -266,9 +305,9 @@ export const fistImg = (options) => {
 	} else {
 		speak.pause();
 	}
-	
-	
-	
+
+
+
 	//禁用分享
 	function onBridgeReady() {
 		WeixinJSBridge.call('hideOptionMenu');
@@ -301,16 +340,16 @@ export const fistImg = (options) => {
 	}
 
 	/* 仅限制微信打开end */
-	
-	
-	
+
+
+
 	/* 关闭浏览器 s */
- 
+
 	setTimeout(function () {
 		window.WeixinJSBridge && window.WeixinJSBridge.call('closeWindow');
 	}, 800);
 	/* 关闭浏览器 e */
-	
+
 ```
 
 
@@ -318,10 +357,10 @@ export const fistImg = (options) => {
 
 ```
     document.body.addEventListener('touchmove', this.bodyScroll, { passive: false });
-    
+
     document.body.removeEventListener('touchmove', this.bodyScroll, { passive: false });
 
-        
+
     bodyScroll (event) {
         event.preventDefault();
     }
