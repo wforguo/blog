@@ -52,6 +52,7 @@ Object.defineProperty(target, key, {
         get() {
             // 此处省略收集依赖
             // 收集对应的变量再哪些地方用到了
+            // 响应式系统使用响应式数据的getter方法对观察者进行依赖收集（Collect as Dependency）
             return value;
         },
         set(newValue) {
@@ -59,6 +60,8 @@ Object.defineProperty(target, key, {
             // 省略了触发依赖，
    
             // 读取视图模板，生产语法树
+            // 使用响应式数据的setter方法通知（notify）所有观察者进行更新，此时观察者 Watcher 会触发组件的渲染函数（Trigger re-render），
+            // 组件执行的 render 函数，生成一个新的 Virtual DOM Tree，此时 Vue 会对新老 Virtual DOM Tree 进行 Diff，查找出需要操作的真实 DOM 并对其进行更新。
             that.render(newValue);
         }
     });

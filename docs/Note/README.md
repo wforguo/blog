@@ -1,9 +1,5 @@
 # 笔记
 
-## 前端体系
-
-[前端体系](https://cdn.forguo.com/assets/imgs/f2e-map.png)
-
 ## JavaScript
 
 [JS基础](Js/README.md)

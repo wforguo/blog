@@ -16,7 +16,7 @@ features:
 <style>
 .icons {
     width: 100%;
-    margin: 3rem auto 0;
+    margin: 2rem auto 1rem;
     text-align: center;
     font-size: 14px;
 }
@@ -58,7 +58,7 @@ features:
 
 footer {
     width: 100%;
-    margin: 1rem auto 1rem;
+    margin: 1rem auto;
     text-align: center;
     font-size: 13px;
     display: flex;
@@ -100,18 +100,18 @@ footer .police {
 
 <article class="description-a">魏国的个人简历,forguo的个人简历,forguo,一个前端工程师的自我修养，web前端个人简历</article>
 
+<hr />
+
 <div class="icons">
     <a href="mailto:wforguo@qq.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a>
     <a href="https://github.com/wforguo" title="GitHub" target="_blank" class="iconfont icon-github"></a>
-    <a href="https://www.forguo.cn" title="听音乐" target="_blank" class="iconfont icon-page"></a>
+    <a href="https://www.forguo.cn" title="forguo" target="_blank" class="iconfont icon-page"></a>
 </div>
-
-</br>
 
 <footer>
     <a href="http://beian.miit.gov.cn" target="_blank">陇ICP备17000679号-1</a><a 
     target="_blank" class="police" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=62040302000038">
         <img src="https://forguo-1302175274.file.myqcloud.com/assets/imgs/copy.png"/>
         <span style="margin-left: 1px;">甘公网安备 62040302000038号</span>
-    </a><span style="margin-left: 3px;">Copyright @ 2016-2020</span>
+    </a><span style="margin-left: 3px;">Copyright © 2016-2020</span>
 </footer>
