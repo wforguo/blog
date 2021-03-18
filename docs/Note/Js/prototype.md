@@ -12,9 +12,9 @@
 ```js
 
 function Person () {
-    
+    this.name = 'name'; // 每次都对实例对象自身做了一个扩展
 }
-let person = new Person();
+let person = new Person(); // 创建一个空对象，{}，并给这个对象的__proto__ 赋值，也就是构造函数的prototype
 person.name = 'hello world!';
 person.gender = 'man';
 console.log(person);

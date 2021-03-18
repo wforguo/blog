@@ -19,7 +19,7 @@ module.exports = {
             (function() {
               var hm = document.createElement("script");
               hm.src = "https://hm.baidu.com/hm.js?2788f1f4f01e060d6d892f4bbd5b74d4";
-              var s = document.getElementsByTagName("script")[0]; 
+              var s = document.getElementsByTagName("script")[0];
               s.parentNode.insertBefore(hm, s);
             })();
         `]
@@ -29,7 +29,7 @@ module.exports = {
         nav: [
             { text: '笔记', link: '/Note/' },
             { text: '工具', link: '/Tool/' },
-            { text: '简历', link: '/Resume/' },
+            // { text: '简历', link: '/Resume/' },
             {
                 text: '主页',
                 ariaLabel: 'Blog Menu',
