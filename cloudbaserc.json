@@ -1,9 +1,8 @@
 {
     "envId": "{{env.ENV_ID}}",
     "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
-    "functionRoot": "cloudfunctions",
     "framework": {
-        "name": "cloud-app",
+        "name": "blog",
         "plugins": {
             "client": {
                 "use": "@cloudbase/framework-plugin-website",
