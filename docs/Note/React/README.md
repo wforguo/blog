@@ -50,7 +50,7 @@ Create-react-app
 
 ## 基础语法
 
-React中必须引入react是因为需要编辑jsx
+React中必须引入react是因为需要编译jsx
 
 `import React from 'react';`
 

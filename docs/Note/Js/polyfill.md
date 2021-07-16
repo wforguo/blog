@@ -12,4 +12,4 @@
 
 - 2. 在main.ts中 import "babel-polyfill"
 
-- 3. 如果使用了vuex，则在vuex的index.ts文件中也要  import "babel-polyfill"，最好放在 import Vuex from 'vuex' 的前面
+- 3.如果使用了vuex，则在vuex的index.ts文件中也要  import "babel-polyfill"，最好放在 import Vuex from 'vuex' 的前面

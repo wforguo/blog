@@ -43,3 +43,22 @@ let copyArray = deepCopy(array);
 copyArray.number = 100;
 console.log(array); // [{number: 1}, { number: 2 }, { number: 3 }]
 console.log(copyArray); // [{number: 100}, { number: 2 }, { number: 3 }]
+
+
+/************************
+ * @description: 注释
+ ************************
+ */
+
+const deepClone = function (data) {
+    if (typeof data !== "object") {
+        return data;
+    }
+    let newObj = data.constructor === Array ? [] : {};
+    for (let key in data) {
+        if (typeof data[key] === 'object') {
+            newObj[key] = deepClone(data[key])
+        }
+    }
+    return  newObj;
+};

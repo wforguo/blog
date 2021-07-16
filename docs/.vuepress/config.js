@@ -29,7 +29,7 @@ module.exports = {
         nav: [
             { text: '笔记', link: '/Note/' },
             { text: '工具', link: '/Tool/' },
-            // { text: '简历', link: '/Resume/' },
+            { text: '简历', link: '/Resume/' },
             {
                 text: '主页',
                 ariaLabel: 'Blog Menu',
